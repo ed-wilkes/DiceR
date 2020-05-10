@@ -167,55 +167,7 @@ body <- dashboardBody(
             )
           )
         )
-      )
-      
-      # "Multi-roll probabilities" ----
-      # ,tabItem(
-      #   tabName = "dice_multiroll"
-      #   ,p()
-      #   ,column(
-      #     width = 3
-      #     ,fluidRow(
-      #       box(
-      #         title = "Dice roll options"
-      #         ,width = 12
-      #         ,solidHeader = TRUE
-      #         ,collapsible = TRUE
-      #         ,status = "primary"
-      #         ,textInput(
-      #           inputId = "dice_sides_multi"
-      #           ,label = "How many sides does your die have?"
-      #           ,value = 20
-      #         )
-      #         ,textInput(
-      #           inputId = "dice_rolls_multi"
-      #           ,label = "How many times is your die being rolled?"
-      #           ,value = 1
-      #         )
-      #         ,textInput(
-      #           inputId = "dice_mod_multi"
-      #           ,label = "What is your modifier for the roll?"
-      #           ,value = 0
-      #         )
-      #         ,selectInput(
-      #           inputId = "dice_k_multi"
-      #           ,label = "Choose your advantage/disadvantage:"
-      #           ,choices = c("None", "Advantage", "Disadvantage")
-      #           ,selected = "None"
-      #           ,multiple = FALSE
-      #         )
-      #         ,actionButton(
-      #           inputId = "dice_go_multi"
-      #           ,label = "Roll!"
-      #           ,width = "100%"
-      #           ,icon = icon("play")
-      #           ,style="color: #fff; background-color: #C70039; border-color: #fff"
-      #         )
-      #       )
-      #     )
-      #   )
-      # )
-      
+      )      
     )
 
     # Window sizing code ----
