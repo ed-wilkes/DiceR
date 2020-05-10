@@ -73,26 +73,6 @@ body <- dashboardBody(
               border-left-color:#900C3F;
               border-right-color:#900C3F;
               border-top-color:#900C3F;
-            }
-            .box.box-solid.box-info>.box-header {
-              color:#fff;
-              background:#03A7CA;
-            }
-            .box.box-solid.box-info {
-              border-bottom-color:#03A7CA;
-              border-left-color:#03A7CA;
-              border-right-color:#03A7CA;
-              border-top-color:#03A7CA;
-            }
-            .box.box-solid.box-success>.box-header {
-              color:#fff;
-              background:#56AF31;
-            }
-            .box.box-solid.box-success {
-              border-bottom-color:#56AF31;
-              border-left-color:#56AF31;
-              border-right-color:#56AF31;
-              border-top-color:#56AF31;
             }"
         )
     )
